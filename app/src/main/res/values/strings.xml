@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="logoName">Sodality</string>
+    <string name="firstPageText1">First time on here?</string>
+    <string name="firstPageText2">Create a goal and achieve it together</string>
+    <string name="firstPageButonText1">Sign up</string>
+    <string name="firstPageButonText2">Create an account</string>
 </resources>

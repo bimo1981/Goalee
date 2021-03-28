@@ -11,7 +11,7 @@
         android:layout_width="293dp"
         android:layout_height="261dp"
         android:layout_marginTop="14dp"
-        tools:srcCompat="@drawable/logoSodality"
+        app:srcCompat="@drawable/logo_sodality"
 
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,14 +21,77 @@
 
     <TextView
         android:id="@+id/logoName"
-        android:layout_width="234dp"
-        android:layout_height="67dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/quicksand"
-        android:text="Sodality"
+        android:text="@string/logoName"
         android:gravity="center"
         android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/logoSodality" />
+
+    <TextView
+        android:id="@+id/firstPageText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:fontFamily="@font/quicksand_light"
+        android:gravity="center"
+        android:text="@string/firstPageText1"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logoName" />
+
+    <TextView
+        android:id="@+id/firstPageText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/quicksand_light"
+        android:text="@string/firstPageText2"
+        android:gravity="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/firstPageText1" />
+
+    <Button
+        android:id="@+id/firstPageButton1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/grey"
+        android:fontFamily="@font/quicksand_medium"
+        android:textSize="18sp"
+        android:text="@string/firstPageButonText1"
+        android:textAllCaps="false"
+        android:elevation="1dp"
+        android:translationZ="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/firstPageText2" />
+
+    <Button
+        android:id="@+id/firstPageButton2"
+        android:text="@string/firstPageButonText2"
+        android:fontFamily="@font/quicksand_medium"
+        android:textAllCaps="false"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="18dp"
+        android:textSize="18sp"
+        android:backgroundTint="@color/green"
+        android:elevation="1dp"
+        android:translationZ="1dp"
+        app:layout_constraintTop_toBottomOf="@id/firstPageButton1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
