@@ -60,13 +60,12 @@
         app:layout_constraintTop_toBottomOf="@id/firstPageText1" />
 
     <Button
-
         android:id="@+id/firstPageButton1"
         android:layout_width="340dp"
-        android:layout_height="65dp"
+        android:layout_height="55dp"
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/white"
-
+        android:background="@drawable/custom_button"
         android:textColor="@color/grey"
         android:fontFamily="@font/quicksand_medium"
         android:textSize="18sp"
@@ -83,10 +82,12 @@
         android:text="@string/firstPageButonText2"
         android:fontFamily="@font/quicksand_medium"
         android:textAllCaps="false"
+        android:textColor="@color/white"
         android:layout_width="340dp"
-        android:layout_height="65dp"
+        android:layout_height="55dp"
         android:layout_marginTop="10dp"
         android:textSize="18sp"
+        android:background="@drawable/custom_button"
         android:backgroundTint="@color/green"
         android:elevation="1dp"
         android:translationZ="1dp"
