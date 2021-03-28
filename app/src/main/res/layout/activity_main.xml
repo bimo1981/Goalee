@@ -8,11 +8,11 @@
 
     <ImageView
         android:id="@+id/logoSodality"
-        android:layout_width="293dp"
-        android:layout_height="261dp"
+        android:layout_width="wrap_content"
+        android:layout_height="320dp"
         android:layout_marginTop="24dp"
-        app:srcCompat="@drawable/logo_sodality"
-
+        app:srcCompat="@drawable/logo_goalee"
+        android:adjustViewBounds="true"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +23,7 @@
         android:id="@+id/logoName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="1dp"
         android:letterSpacing="0.1"
         android:fontFamily="@font/quicksand"
         android:text="@string/logoName"
@@ -37,7 +37,7 @@
         android:id="@+id/firstPageText1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="95dp"
+        android:layout_marginTop="90dp"
         android:fontFamily="@font/quicksand_light"
         android:gravity="center"
         android:text="@string/firstPageText1"
@@ -60,6 +60,7 @@
         app:layout_constraintTop_toBottomOf="@id/firstPageText1" />
 
     <Button
+
         android:id="@+id/firstPageButton1"
         android:layout_width="340dp"
         android:layout_height="65dp"
