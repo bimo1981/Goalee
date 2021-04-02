@@ -1,8 +1,11 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Goalee</string>
     <string name="logoName">Goalee</string>
     <string name="firstPageText1">First time on here?</string>
     <string name="firstPageText2">Create a goal and achieve it together</string>
     <string name="firstPageButonText1">Sign up</string>
     <string name="firstPageButonText2">Create an account</string>
+    <string name="e_mail_or_phone">PHONE NUMBER</string>
+    <string name="password">PASSWORD</string>
+    <string name="forgot_password"><u>Forgot password?</u></string>
 </resources>
